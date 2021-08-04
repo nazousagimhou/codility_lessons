@@ -6,20 +6,13 @@ def solution(N):
     for bit in binary:
         if bit == "0":
             print(f'cero')
+            binary_gap = binary_gap + 1
         else:
             print(f'uno')
+    print(binary_gap)
 
 
 if __name__=='__main__':
     result = solution(decimal_number) 
     print(result)
 
-
-
-#print(type(result))
- #if bit == 0:
- #           print(max_binary_gap = max_binary_gap+1)
- #       else:
- #           print(f'{decimal_number} does not have a binary gap')
- #   return print(binary)
-    #return bin(N)
