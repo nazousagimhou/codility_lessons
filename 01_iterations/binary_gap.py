@@ -4,9 +4,10 @@ def solution(N):
     binary = format(N,'b')
     binary_gap = 0
     for bit in binary:
-        max_binary_gap = binary_gap + 1
-        print(max_binary_gap)
-
+        if bit == "0":
+            print(f'cero')
+        else:
+            print(f'uno')
 
 
 if __name__=='__main__':
