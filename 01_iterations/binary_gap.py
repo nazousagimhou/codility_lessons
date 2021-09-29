@@ -1,7 +1,8 @@
 decimal_number = 578
 
+
 def solution(N):
-    binary = format(N,'b')
+    binary = format(N, 'b')
     print(binary)
     binary_gap = 0
     max_bg = 0
@@ -19,7 +20,6 @@ def solution(N):
     return max_bg
 
 
-if __name__=='__main__':
-    result = solution(decimal_number) 
+if __name__ == '__main__':
+    result = solution(decimal_number)
     print(result)
-
